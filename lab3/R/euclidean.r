@@ -11,6 +11,7 @@ euclidean <- function(num1, num2){
   }
   else{
     if(num1 == num2){
+      print(num1)
       return(num1)
     }
     else{
