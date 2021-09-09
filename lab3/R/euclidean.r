@@ -11,7 +11,7 @@ euclidean <- function(num1, num2){
   }
   else{
     if(num1 == num2){
-      print(num1)
+      # print(num1)
       return(num1)
     }
     else{
@@ -23,3 +23,5 @@ euclidean <- function(num1, num2){
     }
   }
 }
+euclidean(123612, 13892347912)
+euclidean(100, 1000)
