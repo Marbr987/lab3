@@ -23,5 +23,5 @@ euclidean <- function(num1, num2){
     }
   }
 }
-euclidean(123612, 13892347912)
+# euclidean(123612, 13892347912)
 euclidean(100, 1000)
