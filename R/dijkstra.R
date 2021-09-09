@@ -5,9 +5,8 @@
 #' @return Returns a named vector containing the distance of the shortest path between the given starting node to each other node. The distance to the specific nodes is indicated by the name in the returned vector.
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 
-
-
-dijkstra <- function(graph, init_node){
+dijkstra <-
+function(graph, init_node){
   vertexSet_Q <- c()
   dist <- c()
   prev <- c()
