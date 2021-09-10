@@ -12,16 +12,11 @@ function(num1, num2){
     stop('both arguments need to be numbers')
   }
   else{
-    if(num1 == num2){
-      # print(num1)
-      return(num1)
+    while(num2 != 0){
+      temp <- num2
+      num2 <- num1 %% num2
+      num1 <- temp
     }
-    else{
-      numMax <- max(num1, num2)
-      numMin <- min(num1, num2)
-      newNum <- numMax - numMin
-      res <- euclidean(newNum, numMin)
-      return(res)
-    }
+    return(num1)
   }
 }

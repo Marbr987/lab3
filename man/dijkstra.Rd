@@ -12,7 +12,7 @@ dijkstra(graph, init_node)
 \item{init_node}{The starting node from which the shortest paths are calculated}
 }
 \value{
-Returns a named vector containing the distance of the shortest path between the given starting node to each other node. The distance to the specific nodes is indicated by the name in the returned vector.
+Returns a vector containing the distance of the shortest path between the given starting node to each other node.
 }
 \description{
 The algorithm finds the distance  of the shortest path between a given node in a graph and every other node in the graph
