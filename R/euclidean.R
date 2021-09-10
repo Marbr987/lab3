@@ -4,6 +4,7 @@
 #' @description The algorithm finds the greatest common divisor of two given numbers
 #' @return returns the greatest common divisor of the two input numbers
 #' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
+#' @export
 
 euclidean <-
 function(num1, num2){

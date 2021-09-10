@@ -4,6 +4,7 @@
 #' @description The algorithm finds the distance  of the shortest path between a given node in a graph and every other node in the graph
 #' @return Returns a named vector containing the distance of the shortest path between the given starting node to each other node. The distance to the specific nodes is indicated by the name in the returned vector.
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+#' @export
 
 dijkstra <-
 function(graph, init_node){
